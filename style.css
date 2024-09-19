@@ -1,0 +1,30 @@
+.document {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#c1:active {
+    background-image: var(--c1);
+}
+
+#c2:active {
+    background-image: var(--c2);
+}
+
+.index:active {
+    background-image: var(--index);
+}
+
+#counter:active {
+    background-image: var(--counter);
+}
+
+#clock:active {
+    background-image: var(--clock);
+}
